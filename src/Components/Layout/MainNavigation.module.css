@@ -45,3 +45,20 @@
     padding: 0 1rem;
     margin-left: 0.5rem;
 }
+
+
+@media only screen and (max-width: 1024px) {
+    .header li{
+        margin-left:1rem;
+    }
+   
+    .header a{
+        font-size: .7rem;
+       
+    }
+
+    .logo{
+        display: none;
+   
+    }
+}

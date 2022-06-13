@@ -9,9 +9,9 @@ function App() {
     <Layout>
       
       <Routes>
-        <Route path='/' element={<AllMeetups/>} />
-        <Route path='new-meetup' element={<NewMeetup/>} />
-        <Route path='favourites' element={<Favourites/>} />
+        <Route path='/Meetup-Manager' element={<AllMeetups/>} />
+        <Route path='/Meetup-Manager/new-meetup' element={<NewMeetup/>} />
+        <Route path='/Meetup-Manager/favourites' element={<Favourites/>} />
       </Routes>
     </Layout>
   );
